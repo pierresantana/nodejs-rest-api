@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-rest-api",
+  "version": "1.0.0",
+  "description": "Sample REST API using Node.js, Express, MongoDB and JWT for authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierresantana/nodejs-rest-api.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "REST"
+  ],
+  "author": "Pierre Santana <pierresantana@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierresantana/nodejs-rest-api/issues"
+  },
+  "homepage": "https://github.com/pierresantana/nodejs-rest-api#readme",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.23.0",
+    "mongoose": "^5.4.2",
+    "node-uuid": "^1.4.8"
+  }
+}
