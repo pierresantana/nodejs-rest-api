@@ -6,7 +6,6 @@ module.exports = {
         "host": "mongodb://localhost",
         "collection": "nodejs-rest-api"
     },
-    "environment": "dev",
     "permissionLevels": {
         "NORMAL_USER": 1,
         "MANAGER_USER": 2,
